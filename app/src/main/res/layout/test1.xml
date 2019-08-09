@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:background="#e2e3eb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:background="#f20"
+        android:text="Top Content Here"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:background="#7C7979"
+        android:text="Bottom Content Here"
+        android:textSize="40sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:background="#01F81A"
+            android:layout_weight="1"
+            android:text="First"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:background="#0042FF"
+            android:layout_weight="1"
+            android:text="Second"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:background="#FFFA00"
+            android:layout_weight="1"
+            android:text="Third"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

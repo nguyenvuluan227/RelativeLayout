@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#e2e3eb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textred"
+        android:text="Red"
+        android:textSize="40sp"
+        android:background="#f20"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textgreen"
+        android:text="Green"
+        android:layout_below="@id/textred"
+        android:layout_alignLeft="@id/textred"
+        android:textSize="40sp"
+        android:background="#22E600"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Blue"
+        android:text="Blue"
+        android:layout_below="@id/textgreen"
+        android:layout_alignLeft="@id/textgreen"
+        android:textSize="40sp"
+        android:background="#126CDD"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Orange"
+        android:text="Orange"
+        android:layout_below="@id/Blue"
+        android:layout_alignLeft="@id/Blue"
+        android:textSize="40sp"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Gray"
+        android:text="Gray"
+        android:layout_below="@id/Orange"
+        android:layout_alignLeft="@id/Orange"
+        android:textSize="40sp"
+        android:background="#909AA8"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Pink"
+        android:text="Pink"
+        android:layout_below="@id/Orange"
+        android:layout_alignLeft="@id/Orange"
+        android:textSize="40sp"
+        android:background="#C912DD"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
